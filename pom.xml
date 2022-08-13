@@ -20,6 +20,7 @@
         <module>dq-java-base</module>
         <module>dq-rabbit-mq</module>
         <module>dq-redis</module>
+        <module>dq-java-thread</module>
     </modules>
 
     <!--  属性管理  -->

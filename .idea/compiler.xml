@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dq-rabbit-mq" />
         <module name="dq-java-base" />
+        <module name="dq-java-thread" />
         <module name="dq-redis" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="dq-java-base" options="-parameters" />
+      <module name="dq-java-thread" options="-parameters" />
       <module name="dq-rabbit-mq" options="-parameters" />
       <module name="dq-redis" options="-parameters" />
     </option>
